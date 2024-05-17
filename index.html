@@ -1,28 +1,53 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <link rel="stylesheet" href="./styles/style.css" />
-        <title>Flights</title>
-    </head>
-    <body>
-        <main>
-            <div class="img">
-                <img src="./assets/flight.jpeg" alt="flight" />
-            </div>
-            <div id="parent">
-                <div class="flight test">
-                    <div class="name">Name</div>
-                    <div class="plane">Plane</div>
-                    <div class="departureDate">Departure Date</div>
-                    <div class="origin">Origin</div>
-                    <div class="arrivalDate">Arrival Date</div>
-                    <div class="destination">Destination</div>
-                    <div class="stops">Stops</div>
-                </div>
-            </div>
-        </main>
-        <script type="module" src="./src/init.js"></script>
-    </body>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Card Slider</title>
+    <link rel="stylesheet" href="styles/style.css">
+</head>
+<body>
+    <input type="radio" name="position" />
+    <input type="radio" name="position" />
+    <input type="radio" name="position" checked />
+    <input type="radio" name="position" />
+    <input type="radio" name="position" />
+
+    <main id="carousel">
+        <div class="item">
+            <img src="images/member-1.png">
+            <h3 class="name">jean</h3>
+            <p class="Occupation">Telecommunications Engineer</p>
+            <p class="testimonial">Design and oversee the installation of telecommunications equipment and facilities.</p>
+        </div>
+
+        <div class="item">
+            <img src="images/member-2.png">
+            <h3 class="name">Felix</h3>
+            <p class="Occupation">Network Engineer</p>
+            <p class="testimonial">ensuring efficient and secure network operations.</p>
+        </div>
+
+        <div class="item">
+            <img src="images/member-3.png">
+            <h3 class="name">nibishaka</h3>
+            <p class="Occupation">Electronics Engineer</p>
+            <p class="testimonial">Design, develop, and test electronic systems and components.</p>
+        </div>
+
+        <div class="item">
+            <img src="images/member-4.png">
+            <h3 class="name">jean felix</h3>
+            <p class="Occupation">Broadcast Engineer</p>
+            <p class="testimonial">Work on the technology behind radio and television broadcasting.</p>
+        </div>
+        
+        <div class="item">
+            <img src="images/member-5.png">
+            <h3 class="name">nibishaka jean</h3>
+            <p class="Occupation">Antenna Engineer</p>
+            <p class="testimonial">Design and develop antennas for various communication systems</p>
+        </div>
+    </main>
+</body>
 </html>
